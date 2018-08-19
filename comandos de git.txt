@@ -13,3 +13,9 @@ git rm nombreArchivo -> nombre del archivo que se removio
 git reset --hard commitAlQueSeQuiereRegresar(codigo del log) -> se regresa el repositorio  al punto del commit indicado
 git reset --soft commitAlQueSeQuiereRegresar(codigo del log) -> se muestra el repositorio  al punto del commit indicado (solo se ven los cambios, no se recuperan los archivos)
 git reflog -> se ven todos los cambios inclusive si se hizo un reset
+git  branch nombre -> crea una rama (se copian todos los archivos de master y los ultimos que se agreguen ahi no se ven en master)
+git checkout rama -> cambia apuntador a la rama especificada (todos los cambios se hacen dentro de esa rama a menos que se cambie de rama)
+git merge nombre -> se mezclan los archivos de donde esta el apuntador actualmente con el nombre de la rama especificada
+git branch -d nombre -> borra la rama especificada
+git log --online --decorate --graph -> muestra los commits de todas las ramas
+git checkout -b nombre -> crea una nueva rama con el aputador a esta
