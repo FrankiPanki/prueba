@@ -17,5 +17,9 @@ git  branch nombre -> crea una rama (se copian todos los archivos de master y lo
 git checkout rama -> cambia apuntador a la rama especificada (todos los cambios se hacen dentro de esa rama a menos que se cambie de rama)
 git merge nombre -> se mezclan los archivos de donde esta el apuntador actualmente con el nombre de la rama especificada
 git branch -d nombre -> borra la rama especificada
-git log --online --decorate --graph -> muestra los commits de todas las ramas
+git log --oneline --decorate --graph -> muestra los commits de todas las ramas
 git checkout -b nombre -> crea una nueva rama con el aputador a esta
+git tag "nombreEtiqueta" -> etiquta (sirve para poner una version) 
+git tag -d "nombreEtiqueta" -> borra la etiqueta 
+git tag -a "nombreEtiqueta" -m ->comenta la equiqueta
+git show -> muestra toodos los commits hechos desde la ultima etiquetacion 
