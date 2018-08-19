@@ -10,3 +10,6 @@ git checkout . -> volver a va version anterior
 git log -> ver los commits que se han hecho
 git mv nombreAnterior nombreNuevo -> cambia el nombre de un archivo
 git rm nombreArchivo -> nombre del archivo que se removio
+git reset --hard commitAlQueSeQuiereRegresar(codigo del log) -> se regresa el repositorio  al punto del commit indicado
+git reset --soft commitAlQueSeQuiereRegresar(codigo del log) -> se muestra el repositorio  al punto del commit indicado (solo se ven los cambios, no se recuperan los archivos)
+git reflog -> se ven todos los cambios inclusive si se hizo un reset
