@@ -1,0 +1,12 @@
+git init -> decir a git que gestione el directorio
+git add . -> agregar todos los cambios nuevos
+git add nombreArchivo -> agrega un archivo en particular al stage
+git add *algo -> agrega lo que sea concatenado con algo
+git reset nombreArchivo -> remueve el archivo indicado del stage
+git commit -m "cambios" -> comentar los cambios
+git commit --amend -m "cambio de commit" -> se cambia el ultimo commit 
+git status -> ver el estatus del repositorio (cosas que ya se agregaron y cosas que no)
+git checkout . -> volver a va version anterior
+git log -> ver los commits que se han hecho
+git mv nombreAnterior nombreNuevo -> cambia el nombre de un archivo
+git rm nombreArchivo -> nombre del archivo que se removio
