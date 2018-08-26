@@ -25,4 +25,5 @@ git tag -a "nombreEtiqueta" -m ->comenta la equiqueta
 git show -> muestra toodos los commits hechos desde la ultima etiquetacion
 git remote add origin rutaRepositorio-> agrega la ruta del repositorio de github
 git push -u origin master -> sube lo que hay en el stage a github
+funciona
  
