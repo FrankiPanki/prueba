@@ -25,5 +25,10 @@ git tag -a "nombreEtiqueta" -m ->comenta la equiqueta
 git show -> muestra toodos los commits hechos desde la ultima etiquetacion
 git remote add origin rutaRepositorio-> agrega la ruta del repositorio de github
 git push -u origin master -> sube lo que hay en el stage a github
-funciona
- 
+jitpack -> https://jitpack.io/
+
+--->comando de maven para instalar una libreria y ocuparla como dependencia
+ 	mvn install:install-file "-Dfile = C:\Users\dani3\Downloads\gs-ui-1.3\gs-ui-1.3\gs-ui-1.3.jar" "-DgroupId=com.graphstream" "-DartifactId=gs-ui" "-Dversion=1.3" "-Dpackaging=jar"
+
+
+
