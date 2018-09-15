@@ -25,6 +25,17 @@ git tag -a "nombreEtiqueta" -m ->comenta la equiqueta
 git show -> muestra toodos los commits hechos desde la ultima etiquetacion
 git remote add origin rutaRepositorio-> agrega la ruta del repositorio de github
 git push -u origin master -> sube lo que hay en el stage a github
+
+--pedir credenciales siempre---
+windows ingreesar a 
+Para msysGit: %ProgramFiles(x86)%\Git\etc\gitconfig
+Para Git para Windows (64 bit): %ProgramFiles%\Git\mingw64\etc\gitconfig
+Para gits nativos de MSYS2: [MSYS2-install-path]\etc\gitconfig
+
+en el area de [credencial] agregar la variable
+iteractive = always 
+--------------------------------
+
 jitpack -> https://jitpack.io/
 
 --->comando de maven para instalar una libreria y ocuparla como dependencia
