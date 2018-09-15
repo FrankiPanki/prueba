@@ -2,3 +2,4 @@ nuevo1 conflicto
 algo2
 algo3
 algo1
+algo7
