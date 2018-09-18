@@ -1,3 +1,5 @@
+git config --global user.name "John Doe" -> configurar usuario
+git config --global user.email johndoe@example.com -> configurar correo
 git init -> decir a git que gestione el directorio
 git add . -> agregar todos los cambios nuevos
 git add nombreArchivo -> agrega un archivo en particular al stage
@@ -41,5 +43,5 @@ jitpack -> https://jitpack.io/
 --->comando de maven para instalar una libreria y ocuparla como dependencia
  	mvn install:install-file "-Dfile = C:\Users\dani3\Downloads\gs-ui-1.3\gs-ui-1.3\gs-ui-1.3.jar" "-DgroupId=com.graphstream" "-DartifactId=gs-ui" "-Dversion=1.3" "-Dpackaging=jar"
 
-
+userTimezone=true&serverTimezone=UTC
 
