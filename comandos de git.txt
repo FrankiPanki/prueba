@@ -44,4 +44,14 @@ jitpack -> https://jitpack.io/
  	mvn install:install-file "-Dfile = C:\Users\dani3\Downloads\gs-ui-1.3\gs-ui-1.3\gs-ui-1.3.jar" "-DgroupId=com.graphstream" "-DartifactId=gs-ui" "-Dversion=1.3" "-Dpackaging=jar"
 
 userTimezone=true&serverTimezone=UTC
+C:\Program Files\MySQL\MySQL Server 8.0\bin
 
+jdbc:mysql://localhost:3306/sistema_colaborativo?userTimezone=true&serverTimezone=UTC
+jdbc:mysql://localhost:3306/prueba?userTimezone=true&amp;serverTimezone=UTC
+com.mysql.jdbc.Driver
+netstat -aon | find ":8080" | find "LISTENING"
+Database URL	jdbc:postgresql://localhost:5432/SISTEMACOLABORATIVO
+
+insert into horario (dia, horainicio, horafin, fk_id_profesor), values ('viernes', '12:00', '13:00',)
+    <bean id="ProfesorDAO" class="mx.unam.ciencias.is.sistemacolaborativo.modelo.HorarioDAO" p:sessionFactory-ref="hibernate4AnnotatedSessionFactory"/>
+                <value>mx.unam.ciencias.is.sistemacolaborativo.mapeobd.Horario</value>

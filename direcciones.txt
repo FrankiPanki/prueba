@@ -1,0 +1,17 @@
+192.168.75.131
+192.168.75.131 
+
+
+192.168.75.133 ubuntu4
+192.168.75.132 ubuntu3
+
+	AddHandler cgi-script .cgi
+	AddHandler cgi-script .py
+
+	apt-get install libapache2-mod-python
+
+
+para cada borde, elija un punto final como el punto final distinguido y únalo con el punto nuevo más cercano en la X
+
+
+el vértice original de V conserva su identidad y no se produce la fusión a menos que haya nuevos puntos en la X. El borde entre el otro punto final de la X y su nuevo punto más cercano en la X se llamará el borde del operando de la X

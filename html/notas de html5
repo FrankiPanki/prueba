@@ -1,0 +1,62 @@
+<!doctype html> -> sirve para especificar que se va a ocupar la version 5 de html y es la primera etiqueta, estas etiquetas pueden ir en MAYUSCULAS O MINUSCULAS
+<html></html> -> Todo el codigo va dentro de esta etiqueta
+				Atributos : laguage
+				ejemplo: <html lang="es"> estamos diciendo que el lenguaje principal de la pagina es español
+<head></head> -> Dentro se incluyen los estilos, archivos javascrip, iconos que aparecen en la pagina web en la barra de paginas, el titulo de la pagina y las etiquetas <meta> lo que aparece  dentro del head no se ve en la pagina
+
+<title></title> -> da nombre a la pagina en las pestañas de pagina, y es tomado en cuenta por un buscador de paginas web para categorizar la pagina se toma mas en cuenta que la etiqueta <meta name="keywords"/>
+
+<link></link> -> se acontumbra ir despues del tittle
+				atributos 	rel -> indica el tipo de archivo que se esta agregando en la pagina web
+							href -> ruta del archivo
+				ejemplo1: <link rel="stylesheet" href="hojaestilos.css"> sisrve para enlazar o inclucuir documentos que se van  a utilizar en la pagina web como hojas de estilo o documentos javascrip>
+
+
+<meta /> -> funciona para que un buscador pueda categorizar y posicionar en los resultados de las busquedas no tiene un par de cierre i.e no funciona asi : <meta></meta> 
+				ejemplo1 : <meta charset="iso-8559-1"/> determina la manera que se va a presentar la pagina, el tipo de caracteres, etc.
+				
+				ejemplo2 : <meta name="description" content="Descripcion de la pagina web"/> informamos al buscador el tipo de contenido del que va la pagina web.
+				
+				ejemplo1 : <meta name="keywords"  content="html5,  css3, hola"/> desimos al buscador cuales son las palabras claves para que encuenren nuestra pagina web, p.e sis se ecribimos el google hola veremos que deberia aparecer nuestra pagina web como resultado
+
+<body></body> -> es todo lo que se va a mostrar en la pagina 
+<header></header> -> cabezera para muchas cosass(pagina web, section, contenedores en general)
+
+<h1></h1> -> etiqueta que sirve para un titulo, va de h1, hasta h6 para dar el tamaño de un tittulo esta etiqueta ayuda a que sea compatible con todos los naegadores especialmente para dispositivos que no son pc, p.e de dispositivos moviles 
+<hgroup></hgroup> -> sirvre para agrupar por titulos y subtitulos
+
+<nav></nav> -> etiqueta para contruir menus de navegacion de igual manera hace compatible con todos los navegadores
+
+
+<ul></ul> -> sirve para constrir listas desordenadas sus elementos son etiquetas <li></li>
+<ol></ol> -> sirve para constrir listas ordenadas sus elementos son etiquetas <li></li>
+<li></li> -> sirve para nombrar los elemntos de una lista
+
+<aside></aside> -> sire como barra lateral izquerda o derecha segun si se define antes o despues o en todo caso de pende de un css sus elementos son etiquetas <blocquote></blocquote> sus contenido puede ser  o que sea
+<blocquote></blocquote> -> delimita un bloque de un aside
+<blocklevel></blocklevel> -> bloque con salto de linea a inicio y fin
+
+<section></section> -> sirve para delimitar una seccion puede ir lo que sea
+<p></p> -> sirve para escribir un parrafo
+<article></article> sirve para agrupar grupos de parrafos o segmentos de texto que habla de lo mismo
+
+<footer></footer> -> pie de pagina para muchas cosass(pagina web, section, contenedores en general)
+
+<figure></figure> -> sirve para insertar elementos que pueden estar relacionadas con la pagina y que tambien son elemntos independientes p.e imagenes, videos e incluso elemntos de flash con sus repectivas etiquetas p.e <img/> 
+
+<img/> -> sirve para agregar una imagen 
+		atributos src -> ruta de la imagen
+
+<figcaotion></figcaotion> -> Sirve para dar un pie imagen vide etc. del objeto que este dentro de figure
+
+<mark></mark> -> resalta un un texto
+<em></em> -> cambiar en cursivas 
+<strong></strong> texto en negrita 		
+<smal></smal>-> sirve para presetar textos legales como copyright, derechos reservados etc
+<addres></addres> -> sirve para poner una direccion VA DENTRO DE UN FOOTER
+<time></time> -> sirve para poner una fecha
+				atributo data time -> dice al navegador la fecha de lo que va a dentro
+				ejemplo: <time datatime="2015-31-12">fecha</time>
+
+
+

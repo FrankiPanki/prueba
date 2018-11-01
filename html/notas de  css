@@ -1,0 +1,27 @@
+notas css
+slector  -> funciona poniendo el nombre de la etiqueta y depues llaves {}
+						body{
+						propiedad:valor;
+						}
+						ejemplo body{
+						background-color:#FFCC00;
+						}
+
+pueden haber varios tipos de selectores: de eqiqueta, de id, y de clase						
+por id:
+#nombreid{
+	propiedad:valor;
+			}
+
+en html <etiquta id="nombreid">
+
+
+propiedad display -> Sirve para indicar como se va a mostrar un elemento, puede ser block (con salto de linea a inicio y fin del bloque) inline (uno tras otro sin saltos) etc.
+
+propiedad float -> rompe el esquema que tienen por default un objeto y lo pone (left izquierda)	(right derecha) y los demas objetos lo rodean ocupando unicamente en espacio que ocupan los objetos dentro del contenedor i.e hace que el objeto flote o que se sobreponga a los demas objetos.
+
+margin -> separacion del espacio que hay entre el bordede la pagina o el objeto mas cercano hasta el objeto, no toma en cuenta los objetos con atributo float ya que es como si estuvieran sobrepuestos.
+
+pading -> separacion (margen) de los objetos que estan contenidos en una caja a los bordes de esa caja 	
+
+un style dentro de la pagina web tiene mayor prioridad al acceder a un selector que un archivo css	
