@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Mis asesorias</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <h1>Mis asesorias</h1>
+
+
+  <div class="card">
+
+
+  
+
+    <div class="card-header" id="headingTwo">
+			<table class="table">
+  			<thead>
+    			<tr>
+      			<th scope="col">nombre</th>
+      			<th scope="col">materia</th>
+      			<th scope="col">dia</th>
+      			<th scope="col">hora</th>
+    			</tr>
+  			</thead>
+  			<tbody>
+    			<tr>
+      			<td>Mark</td>
+      			<td>ingles</td>
+      			<td>sabado</td>
+      			<td>15 hr</td>
+  			</tbody>
+			</table>    
+	    	
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Ver mas
+        </button>
+      
+
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+    	<h4 class="card-title">Comentario</h4>
+    	<p class="card-text">nessito el tema dibujar en phoshop se que no soy muy listo pero le hecho ganas :v</p>      	
+		<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter">
+  			Aceptar Asesoria
+		</button>
+
+<!-- Modal -->
+			<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  				<div class="modal-dialog modal-dialog-centered" role="document">
+    				<div class="modal-content">
+      					<div class="modal-header">
+        					<h5 class="modal-title" id="exampleModalCenterTitle">Aceptar Acesoria</h5>
+        					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          						<span aria-hidden="true">&times;</span>
+        					</button>
+      					</div>
+      					<form action="">
+      						<div class="form-group">
+      							<div class="modal-body">
+  									<div class="form-group">
+
+    									<label for="exampleFormControlTextarea1">Duracion</label>
+    									<input type = "text" class = "form-control bfh-number">
+    									<label for="exampleFormControlTextarea1">Comentario</label>
+    									<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  									</div>	        							
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        							<button type="button" class="btn btn-primary">Save changes</button>
+      							</div>
+      						</div>
+      					</form>
+    				</div>
+  				</div>
+			</div>       
+
+      
+      
+		<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#declinar">
+  			Declinar Asesoria
+		</button>
+
+<!-- Modal -->
+			<div class="modal fade" id="declinar" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  				<div class="modal-dialog modal-dialog-centered" role="document">
+    				<div class="modal-content">
+      					<div class="modal-header">
+        					<h5 class="modal-title" id="exampleModalCenterTitle">Declinar asesoria</h5>
+        					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          						<span aria-hidden="true">&times;</span>
+        					</button>
+      					</div>
+      					<form action="">
+      						<div class="form-group">
+      							<div class="modal-body">
+  									<div class="form-group">
+    									<label for="exampleFormControlTextarea1">Comentario</label>
+    									<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  									</div>	        							
+      							</div>
+      							<div class="modal-footer">
+        							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        							<button type="button" class="btn btn-primary">Save changes</button>
+      							</div>
+      						</div>
+      					</form>
+    				</div>
+  				</div>
+			</div>       
+
+      </div>
+
+    </div>
+
+
+ </div>  
+
+
+
+    <!-- Button trigger modal -->
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
