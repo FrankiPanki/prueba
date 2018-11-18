@@ -1,0 +1,35 @@
+instalacion:
+<script src="Jquery/jquery-1.6.3.min.js"></script> tambien se puede importar como una ruta a un servidor de por ejemplo gooogle, microsoft o jquery
+con el siguiente script se dice al documento html, que cargue todo el body para despues poder usar la libreria, es nesesario.
+<script>
+$(document).ready(function(){
+	//codigo de java
+});
+</script>
+
+
+DOM (Modelo de Objetos de Documento): Memorizacion de la estructura del documento en forma de arbol donde cada nado es una etiqueta con sus respectivos atributos y valores para ellos y cada hijo es la "anidacion de etiquetas" osea las etiquetas que pueden ir dentro de otras etiquetas
+
+Formas de seleccionar elemntos del DOM:
+->document.getElementById("id");
+->document.getElementByTagName(nombre de una etiquetas p.e nav);
+
+Formas de seleccionar elemntos del DOM con JQuery:
+->$(#"id"); por id
+->$("P"); por etiqueta
+->$(".clase"); por clase
+-> funcionan todos los selectores de css y los regresa como un array
+
+ciclos implicitos: al llamar una funncion con un conjunto de atributos del DOM se aplica la funcion a todos 
+	->ejemplo: $("P").hide();  oculta a todos los parrafos 
+
+funciones principales de JQuery para agregar texto
+->(selector).html("texto") si el parametro esta vacio deja el CODIGO dentro del el contenedor al que apunta el selector igual, si no lo cambia por lo que hay adentro, reconoce el use de etiquetas en el texto
+->(selector).text() igual que html solo que no reconoce el uso de etiquetas
+TODAS ESTAS ACEPTN ETIQUETAS HTML
+->(selector).append("texto") agrega texto antes dentro del cotenedor 
+->(selector).prepend("texto") agrega texto despues dentro del cotenedor 
+->(selector).before("texto") agrega texto antes del contenedor
+->(selector).after("texto") agrega texto despues del contenedor
+
+

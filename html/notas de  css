@@ -7,14 +7,71 @@ slector  -> funciona poniendo el nombre de la etiqueta y depues llaves {}
 						background-color:#FFCC00;
 						}
 
-pueden haber varios tipos de selectores: de eqiqueta, de id, y de clase						
-por id:
+selectores: de eqiqueta, de id, y de clase						
+->por id:
 #nombreid{
 	propiedad:valor;
 			}
 
 en html <etiquta id="nombreid">
 
+->por clase:
+.miestilo{
+	atributo:valor;
+}
+en html <etiqueta class="miestilo">
+
+
+
+->por atributo name 
+	ejemplo1:etiqueta[name="nombre"]{
+			atributo:valor
+			}
+	ejemplo2:etiqueta[name^="n"]{
+			atributo:valor
+			} los que name empiece con n
+	ejemplo2:etiqueta[name$="n"]{
+			atributo:valor
+			} los que name termine con n
+
+			investigar mas con expresiones regulares
+
+->por grupo de etiquetas
+	etiqueta1,etiqueta2,etiqueta3{
+	atributo:valor;
+	}
+
+->selector universal
+ *{
+ atributo:valor;
+ }	
+
+-> descendiente  aplica estilo a los p que estan dentro de un section, se pueden anidar tantas etiquetas como sea posible
+section p {
+	atributo:valor;
+}
+
+->por atributo de un tag aplica para el valor de un class de una etiqueta en este caso p <p class="wola">
+p.wola {
+	atributo:valor;
+}
+
+->por estados visited funciona solo para link
+ a:link{
+ 	atributo:valor;
+ } sin visitar
+ a:visited{
+ 	atributo:valor;
+ }
+ a:hover{
+ 	atributo:valor;
+ } al pasar el mouse
+ a:active{
+ 	atributo:valor;
+ } al dar click
+
+estilos inline : funcionan poniendo el estilo dentro de la etiqueta 
+				<span style= "background-color=#FFF"; color=#c00;>hola</span>
 
 propiedad display -> Sirve para indicar como se va a mostrar un elemento, puede ser block (con salto de linea a inicio y fin del bloque) inline (uno tras otro sin saltos) etc.
 
@@ -25,3 +82,15 @@ margin -> separacion del espacio que hay entre el bordede la pagina o el objeto 
 pading -> separacion (margen) de los objetos que estan contenidos en una caja a los bordes de esa caja 	
 
 un style dentro de la pagina web tiene mayor prioridad al acceder a un selector que un archivo css	
+
+text-alingn -> alinea el TEXTO en medio
+
+border -> borde de una caja
+
+
+NOTAS:
+existe herencia de estilos al dar cierta propiedad de estilo a una "caja" lo que tiene adentro continua ese mismo estilo en algunos componentes que tenga sentido mantener ese estilo
+cascade funciona para resolver conflictos que se 
+
+
+

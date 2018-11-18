@@ -1,0 +1,104 @@
+objetivo:	javascript es un lenguaje de proposito concreto, cuyo fin es crear aplicaciones que se van a ejecutar 				en un navegador
+caracteristicas: se ejecuta en local (se ejecuta en el navgador del cliente), es interpretado, agrag comportamientos a una pagina web, proporciona efectos visuales.
+
+hisotria: fue inventada por netscape (era un navegador)
+
+
+
+jquery: es una libreria de javascrpt, facilita el proceso de programacion y resuelve problemas de incompatibilidad de los navegadores.
+
+importar libreria -> se hace como la utilizacion de un script aparte 
+<script src="Jquery/jquery-1.6.3.min.js"></script>
+
+
+en que parte del html va: dentro de etiquetas <scrpt></scrpt> en el head, en un archivo con extencion .js y puede ir en alguna otra parte si no se esta en html5 se tiene que agregar como atributo del scrpt el lenguaje javascript
+	->si se pone en el head el script se ejecuta antes de que se cargue la pagina
+	->si se pone en un archivo con extencion .js este ya no va en etiquetas scrpt
+		->en el html hay que enlazar el archivo js mediante un atributo en una etiqueta script 
+			<script src="rutaDelArchivo"></script>
+
+tipos de datos 
+-> String ("hola", 'hola')
+-> Numero (decimales, enteros)
+-> Booleanos (true, false)
+
+sintaxis:
+-> toda instruccion termina con ;
+-> las funciones llevan parentesis
+-> declarar variable
+	->var nombreVariable;
+	->var var1, var2, var3;
+	al declararlas si importan las mayusculas i.e Variable != variable
+-> inicializar variables
+	->var var1=1
+	->var var1=1, var2=2, var3="frank";	
+->funciones igual que python 
+	->function nombreFuncion (){}
+	->llamar a una funcion entre <script>nombreFuncion();</script>
+
+
+Controles de flujo y ciclos (if, else, for, do, while)
+	->igual que java
+
+
+operadores
+	->basicos
+		->+ (1+1) ("hola"+"frank")
+		->- (1-1)
+		->* (1*1)
+		->/ (1/1)
+	->decremento e incremento (iguales que en java)
+		->var++;
+		->var--;
+		->var+=;
+		->var*=;
+		->var/=;
+	->operadores logicos (==,!=,>=,<=,!)
+		->igua que java
+
+-> comentarios igual que java	
+
+
+
+objetos nativos
+objetos: 
+	->document
+		metodos:
+			->write() escribe una cadena en la pagia web (al ver que solo regresa una cadena a esta pued
+			gual interactuar con los elementos de html siendo un parametro por ejemplo, un vlaor, o solo algo 
+			que esta en una etiqueta 
+	->Math
+		->random() checar documentacion
+
+
+Estructuras de datos
+->Arrays: pueden contener todo tipo de datos en un mismo array
+	->Atributos
+		->length
+	-> Metodos
+		->push(objeto) : agrega un ojetos al array al final
+		->unshift(objeto) : agrega un ojetos al array al inicio
+		->pop():elimina el ultimo objeto del array y lo regresa
+		->shift():elimina el primer objeto del array y lo regresa
+	->Declaracion
+		->var arreglo=new Array(objetos);
+		->var arreglo=[objeto1, objeto2];
+	-> obtencion de objetos
+		->var aux = arreglo[indice del array];
+
+
+Funciones nativas 
+->Number() : castea un string a numero
+->prompt("mensaje") : abre una ventana con un mensaje para obtener informacion de teclado, lo que obtinen son Strings 
+->typeOf(objeto): dice el tipo del objetos
+->parseInt("cadena"): transforma cadena a objeto
+->isNan(objeto): ve si el objeto no es un numer
+
+
+
+
+NOTAS:
+-> Con F12 podemos ver la consola del avegador que informa sobre errores en el html y el archivo
+-> Cada etiqueta de un documento html puede ser obtenida en un script como un objteto, siendo sus atributos de la etiqueta atributos del objeto, asi como sus metodos mediante el objeto document y el metodo getElement*
+* hay varias formas de obtenerce, ver documentacion de document.
+

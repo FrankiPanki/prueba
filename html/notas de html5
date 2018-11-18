@@ -47,7 +47,7 @@
 <img/> -> sirve para agregar una imagen 
 		atributos src -> ruta de la imagen
 
-<figcaotion></figcaotion> -> Sirve para dar un pie imagen vide etc. del objeto que este dentro de figure
+<figcaption></figcaption> -> Sirve para dar un pie imagen vide etc. del objeto que este dentro de figure
 
 <mark></mark> -> resalta un un texto
 <em></em> -> cambiar en cursivas 
@@ -57,6 +57,6 @@
 <time></time> -> sirve para poner una fecha
 				atributo data time -> dice al navegador la fecha de lo que va a dentro
 				ejemplo: <time datatime="2015-31-12">fecha</time>
-
+<span></span> -> sirve como etiqueta auxililiar sisrve para darle estilo a un cacho de texto por si sola no hace nada
 
 
